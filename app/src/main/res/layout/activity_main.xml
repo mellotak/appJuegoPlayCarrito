@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/carcol"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:src="@drawable/carcol"
+        android:layout_gravity="top|center_horizontal" />
+
+    <ImageView
+        android:id="@+id/mio"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:src="@drawable/mio"
+        android:layout_gravity="bottom|center_horizontal" />
+</FrameLayout>
